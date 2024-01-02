@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div id="task-form">
+            <label for="task"><p style="font-family:cursive">Task:</label></p>
+            <input type="text" id="task"placeholder="Enter task">
+            <label for="deadline"><p style="font-family:cursive">Deadline:</label></p>
+            <input type="date" id="deadline">
+            <button onclick="addTask()"><p style="font-family:cursive">Add Task</button></p>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
